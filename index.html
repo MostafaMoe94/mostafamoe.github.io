@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV Template</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+      text-align: center;
+      padding-bottom: 20px;
+      border-bottom: 2px solid #ccc;
+    }
+
+    .header h1 {
+      margin-bottom: 10px;
+      font-size: 2em;
+    }
+
+    .header p {
+      font-size: 1.1em;
+      color: #777;
+    }
+
+    .section {
+      margin: 20px 0;
+    }
+
+    .section h2 {
+      color: #333;
+      font-size: 1.5em;
+      border-bottom: 2px solid #00bfa6;
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+    }
+
+    .section .content {
+      padding-left: 15px;
+    }
+
+    .content h3 {
+      font-size: 1.2em;
+      color: #555;
+      margin-bottom: 5px;
+    }
+
+    .content p {
+      font-size: 1em;
+      color: #777;
+    }
+
+    .content ul {
+      list-style-type: none;
+      padding-left: 0;
+    }
+
+    .content ul li {
+      padding: 5px 0;
+      line-height: 1.5em;
+    }
+
+    .skills {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .skill-item {
+      background-color: #f0f0f0;
+      padding: 8px;
+      border-radius: 5px;
+      width: 48%;
+      margin-bottom: 10px;
+    }
+
+    .footer {
+      text-align: center;
+      color: #888;
+      padding-top: 20px;
+      font-size: 0.9em;
+    }
+
+    @media (max-width: 600px) {
+      .skills {
+        flex-direction: column;
+      }
+
+      .skill-item {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Header -->
+    <div class="header">
+      <h1>John Doe</h1>
+      <p>Full Stack Developer | john.doe@example.com | +123 456 7890</p>
+    </div>
+
+    <!-- Profile Section -->
+    <div class="section">
+      <h2>Profile</h2>
+      <div class="content">
+        <p>
+          Enthusiastic and highly-skilled web developer with 5+ years of experience in designing and developing responsive web applications using HTML, CSS, JavaScript, and backend technologies. Proven ability to deliver high-quality solutions under tight deadlines.
+        </p>
+      </div>
+    </div>
+
+    <!-- Experience Section -->
+    <div class="section">
+      <h2>Experience</h2>
+      <div class="content">
+        <h3>Senior Web Developer | XYZ Corp (2020 - Present)</h3>
+        <ul>
+          <li>Developed and maintained complex web applications using JavaScript frameworks (React, Node.js).</li>
+          <li>Collaborated with UI/UX teams to implement modern and intuitive user interfaces.</li>
+          <li>Led a team of developers and mentored junior engineers.</li>
+        </ul>
+
+        <h3>Web Developer | ABC Solutions (2016 - 2020)</h3>
+        <ul>
+          <li>Created responsive websites and applications, focusing on usability and performance.</li>
+          <li>Worked closely with backend developers to integrate APIs and services.</li>
+          <li>Provided technical support and troubleshooting for client projects.</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Education Section -->
+    <div class="section">
+      <h2>Education</h2>
+      <div class="content">
+        <h3>Bachelor's Degree in Computer Science</h3>
+        <p>University of Technology, 2016</p>
+      </div>
+    </div>
+
+    <!-- Skills Section -->
+    <div class="section">
+      <h2>Skills</h2>
+      <div class="skills">
+        <div class="skill-item">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, React, Angular</p>
+        </div>
+        <div class="skill-item">
+          <h3>Backend</h3>
+          <p>Node.js, Express, MongoDB, SQL</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+      <p>&copy; 2024 John Doe. All Rights Reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
